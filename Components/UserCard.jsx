@@ -19,7 +19,7 @@ export default function UserCard(props){
                 />
                 <span className="text-center display-6 me-auto">{props.name}</span>
                 {!click && <IconChevronDown />}
-                {!click && <IconChevronUp />}
+                {click && <IconChevronUp />}
             </div>
 
             {
